@@ -62,7 +62,7 @@ p {
 
 /* Styles pour le fond de la page */
 body {
-  background-color: #ffffff;
+  background-color:LightGray;
 }
 
 /* Styles pour la disposition des éléments */
@@ -76,4 +76,22 @@ body {
   display: inline-block;
   max-width: 100%;
   height: auto;
+}
+
+.maclass {
+  font-size: 20px; /* taille de la police */
+  color: #000000; /* couleur du texte (ici, rouge) */
+  font-style: Italic; /* police de caractères */
+  text-align: center; /* centrage du texte */
+}
+
+.container {
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 6px;
+  padding-right: 6px;
+  /* autres styles */
 }
